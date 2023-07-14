@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import { useState } from 'react';
 
+/*We can change the values dynamically*/
 export default function Home() {
   const [X, setX] = useState(0); // Initial value of X
   const [a, setA] = useState(2); // Initial value of a
